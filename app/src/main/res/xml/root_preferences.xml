@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <SeekBarPreference
+            app:entries="@array/settings"
+            app:key="time_to_block"
+            app:title="@string/settings_time"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:max="30"
+            app:showSeekBarValue="true"
+            app:min="0"
+            android:defaultValue="15"/>
+
+        <SeekBarPreference
+            app:entries="@array/settings"
+            app:key="time_to_block"
+            app:title="@string/settings_distance"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:max="20"
+            app:showSeekBarValue="true"
+            app:min="5"
+            android:defaultValue="16"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

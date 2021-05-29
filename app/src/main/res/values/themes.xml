@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AlfaKey" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/alfa_rad</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/alfa_rad</item>
+        <item name="colorSecondaryVariant">@color/alfa_rad</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="backgroundColor">@color/white</item>
+        <item name="boxBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="Theme.AlfaKey.button" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="background">@color/black</item>
+        <item name="colorPrimary">@color/black</item>
+    </style>
+
+    <style name="Theme.AlfaKeySettings" parent="Theme.MaterialComponents.Light">
+        <item name="colorSecondary">@color/alfa_rad</item>
+        <item name="colorSecondaryVariant">@color/alfa_rad</item>
+        <item name="backgroundColor">@color/white</item>
+<!--        <item name="actionBarStyle">@style/Theme.AlfaKey.actionBar</item>-->
+        <item name="appBarLayoutStyle">@style/Theme.AlfaKey.actionBar</item>
+        <item name="title">Настройки</item>
+    </style>
+
+    <style name="Theme.AlfaKey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AlfaKey.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AlfaKey.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
